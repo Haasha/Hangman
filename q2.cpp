@@ -9,7 +9,7 @@ void fread(string fname, string words[], const int & nwords)
 	ifstream ifile(fname.c_str(), ios::in);
 	if (!ifile)
 	{
-		cout<<" Couldn’t read the file " << fname;
+		cout<<" Couldnâ€™t read the file " << fname;
 		exit(-1);
 	}
 
@@ -34,23 +34,24 @@ int main() {
 	"								| .__________))______|",
 	"								| | / /      ||",
 	"								| |/ /       ||",
-	"								| | /        ||.-’’.",
+	"								| | /        ||.-â€™â€™.",
 	"								| |/         |/  _  \\",
 	"								| |          ||  `/,|",
-	"								| |          (\\\\`_.’",
-	"								| |         .-`--’.",
+	"								| |          (\\\\`_.â€™",
+	"								| |         .-`--â€™.",
 	"								| |        /Y . . Y\\",
 	"								| |       //|    | \\\\",
 	"								| |      // |  . | \\\\",
-	"								| |      ’) |    | (`",
-	"								| |         || ’||",
+	"								| |      â€™) |    | (`",
+	"								| |         || â€™||",
 	"								| |         ||  ||",
 	"								| |         ||  ||",
 	"								| |         ||  ||",
 	"								| |        / |  | \\",
-	"								         |_`-’  `-’ | |"};
-
-	fread("C:\\Users\\User\\eclipse-workspace\\Q2\\src\\1-4000.txt", Dict , nwords);
+	"								         |_`-â€™  `-â€™ | |"};
+	//Path of the File Named 1-400.txt
+	Path=""
+	fread(Path, Dict , nwords);
 
 	char* Name=new char[50];
 	cout<<"Enter your Name : ";
